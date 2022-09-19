@@ -8,7 +8,7 @@ function NewTeaForm(props){
   function handleNewTeaFormSubmission(event) {
     event.preventDefault();
     props.onNewTeaCreation({
-      names: event.target.names.value,
+      name: event.target.name.value,
       origin: event.target.origin.value,
       price: event.target.price.value,  
       steep: event.target.steep.value, 
