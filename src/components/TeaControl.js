@@ -64,7 +64,7 @@ class TeaControl extends React.Component {
     this.setState({selectedTea: selectedTea});
   }
 
-  handleRestockCLick = () => {
+  handleRestockClick = () => {
     if(this.state.selectedTea.inventory < 1000) {
       const TeaToRestock = this.state.selectedTea;
       const changedTea = {
