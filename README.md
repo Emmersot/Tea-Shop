@@ -13,8 +13,7 @@
 ## Description
 
 __This is a webpage written in JavaScript XML using basic bootstrap CSS styling & JavaScript for functionality. It allows users to add beans to the stock of their coffee shop._
-[Component Diagram]
-(https://drive.google.com/file/d/1nLlYKNIiV7lbbZ3sxwSfEZpoGpyGfkup/view?usp=sharing)
+![Diagram](https://github.com/Emmersot/Tea-Shop/blob/main/public/diagram.png?raw=true)
 
 ## Setup/Installation Requirements
 
