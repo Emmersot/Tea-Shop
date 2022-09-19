@@ -8,7 +8,7 @@ function EditTeaForm (props) {
   function handleEditTeaFormSubmission(event) {
     event.preventDefault();
     props.onEditTea({
-      names: event.target.names.value, 
+      name: event.target.name.value, 
       origin: event.target.origin.value, price:
       event.target.price.value, steep:
       event.target.steep.value, 

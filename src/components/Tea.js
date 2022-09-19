@@ -6,9 +6,9 @@ function Tea(props){
   return (
     <React.Fragment>
       <div onClick = {() => props.whenTeaClicked(props.id)}>
-        <h3 className="listName">{props.name} - {props.origin}</h3>
+        <h3 className="listName">{props.name} Tea - From {props.origin}</h3>
         <h3>{props.price}</h3>
-        <h5>There are about {props.inventory} servings left</h5>
+        <h5> {props.inventory} servings left</h5>
       </div>
     </React.Fragment>
   );
