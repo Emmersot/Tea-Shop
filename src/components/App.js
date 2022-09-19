@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./Header";
-import TicketControl from "./TicketControl";
+import TeaControl from "./TeaControl";
 
 function App(){
   return (
     <React.Fragment>
-      <Header />
-      <TicketControl />
+      <div className="container">
+        <Header />
+        <TeaControl />
+      </div>
     </React.Fragment>
   );
 }
