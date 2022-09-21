@@ -6,6 +6,7 @@
 
 ## Technologies Used
 
+* _Node_
 * _React_
 * _JavaScript_
 * _JSX_
