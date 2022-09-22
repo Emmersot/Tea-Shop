@@ -2,7 +2,11 @@ import React from "react";
 import Tea from "./Tea";
 import PropTypes from "prop-types";
 
+  const originStyle = {
+    color: 'blue',
+  }
 function TeaList(props){
+  
 
   return (
     <React.Fragment>
