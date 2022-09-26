@@ -6,11 +6,11 @@ function TeaDetail(props){
 
   return (
     <React.Fragment>
-      <h1>Tea Detail's</h1>
-      <h3>{tea.name} Tea - From {tea.origin}</h3>
-      <p><em>Price: {tea.price}</em></p>
-      <p><em>Steep time in minutes: {tea.steep}</em></p>
-      <p><em>Inventory: {tea.inventory}</em></p>
+      <h1>Detail's on {tea.name} Tea</h1>
+      <h3>Imported from {tea.origin}</h3>
+      <p><em>at a price of: {tea.price}</em></p>
+      <p><em>It takes {tea.steep} minutes to steep </em></p>
+      <p><em>There are {tea.inventory} left</em></p>
 
       <button onClick={()=> onRestockClick()}>Restock Tea</button>
       <button onClick={props.onBuyClick}>Buy Tea</button>
